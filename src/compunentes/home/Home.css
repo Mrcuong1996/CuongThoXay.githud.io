@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 50px;
+  border-radius: 10px;
+  padding: 30px 30px 30px 30px;
+  background-image: linear-gradient(rgb(255, 103, 68), pink);
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+}
+
+.my-cv {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-style: italic;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 
+      1px 1px 5px #919191, 
+      1px 2px 1px #919191, 
+      1px 3px 1px #919191,
+      1px 4px 1px #919191, 
+      1px 4px 1px #919191, 
+      1px 4px 1px #919191,
+      1px 5px 1px #919191, 
+      1px 6px 1px #919191, 
+      1px 7px 1px #919191,
+      1px 8px 1px #919191, 
+      1px 9px 1px #919191, 
+      1px 10px 1px #919191,
+      1px 18px 6px rgba(16, 16, 16, 0.4), 
+      1px 22px 10px rgba(16, 16, 16, 0.2),
+      1px 25px 35px rgba(16, 16, 16, 0.2), 
+      1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.container-home {
+  display: flex;
+}
+
+.my-cv {
+  display: block;
+  flex-direction: column;
+}
+
+.personal__infor {
+  width: 30%;
+}
+
+.contact-userName {
+  font-weight: 500;
+}
+
+.info {
+  text-align: center;
+}
+
+.avatar {
+  background-color: #fcfcfc;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+}
+
+.avt-Image {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ant-avatar-image {
+  height: 100px;
+  width: 100px;
+}
+
+.ant-avatar-circle {
+  margin: 0;
+}
+
+.ant-avatar {
+  margin-bottom: 10px;
+}
+
+.ant-card-bordered {
+  border: none;
+}
+
+.ant-progress-inner {
+  background-color: #b6b6b6;
+}
+
+
+
+.avt-text,
+.tex-avt-check {
+  text-align: center;
+  font-weight: 500;
+}
+
+.badge-processing {
+  margin-left: 5px;
+}
+
+.anticon-check-circle {
+  color: blue;
+}
+
+.info-icon-check {
+  color: #1890ff;
+}
+
+.info-icon {
+  margin-right: 10px;
+  color: #1890ff;
+  font-size: 20px;
+}
+
+.contact a {
+  color: black;
+  padding: 15px 30px 25px 0px;
+}
+
+.contact h3 {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  box-shadow: 1px -1px 5px rgb(100, 99, 99);
+}
+
+.contact__info-icon-avt {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.ant-card-body {
+  padding: 0px;
+}
+
+.ant-card-bordered {
+  box-shadow: 1px -1px 5px rgb(100, 99, 99);
+}
+
+.ant-card-bordered:hover {
+  background-color: #fcf3f2;
+  cursor: pointer;
+}
+
+.avt-github {
+  width: 25px;
+  height: 25px;
+  box-sizing: 50%;
+  border: 1px solid #1890ff;
+}
+
+.ant-ribbon-wrapper {
+  box-shadow: 1px -1px 5px rgb(100, 99, 99);
+}
+
+.skills-portfolio-about {
+  background-color: #fee9e7;
+  width: 100%;
+  margin-left: 50px;
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+  border-radius: 10px;
+}
+
+.skills-portfolio-about p {
+  margin-bottom: 10px;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.about h3 {
+  font-weight: bold;
+  background-image: linear-gradient(rgb(255, 68, 137), rgb(227, 126, 143));
+
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+  margin-left: -20px;
+  width: 10%;
+}
+
+.about p {
+  border-bottom: 1px solid rgb(222, 221, 221);
+}
+
+.about__h3-about-me {
+  margin-top: -15px;
+}
+
+.skills h3 {
+  font-weight: bold;
+  background-image: linear-gradient(rgb(255, 68, 137), rgb(227, 126, 143));
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+  margin-left: -20px;
+  width: 10%;
+}
+
+.interests h3 {
+  font-weight: bold;
+  background-image: linear-gradient(rgb(255, 68, 137), rgb(227, 126, 143));
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(100, 99, 99);
+  margin-left: -20px;
+  width: 10%;
+}
+
+.skills__menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.skills__menu p {
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+.skills__menu-icon {
+  margin-left: 15px;
+}
+
+.div__code {
+  padding-left: 15px;
+}
+.div__code-icon {
+  margin-right: 5px;
+  color: red;
+}
